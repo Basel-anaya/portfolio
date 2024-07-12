@@ -93,6 +93,7 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Python",
   "Pytorch",
   "Apache Sparks",
   "JavaScript",
@@ -101,5 +102,6 @@ export const skillsData = [
   "Jax",
   "Tensorflow",
   "Git",
-  "Python",
+  "Large Language Models",
+  "LangChain",
 ] as const;
