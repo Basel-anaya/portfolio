@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import port1 from "@/public/port1.png"
+import port2 from "@/public/port2.png"
+import port3 from "@/public/port3.png"
 
 export const links = [
   {
@@ -74,21 +74,21 @@ export const projectsData = [
     description:
       "MedFormer is an advanced Biomedical Vision-Language Model integrated with a RAG System, designed to address complex diagnostic challenges in healthcare. Utilizing cutting-edge technologies such as Idefics2, LLAMA-3, and Citrinet-512, MedFormer seamlessly integrates textual, visual, and auditory data.",
     tags: ["Torch", "VLM", "Azure", "Gradio", "RAG System"],
-    imageUrl: corpcommentImg,
+    imageUrl: port3,
   },
   {
     title: "LoreWeaver: A Novels Generation Multimodal LLM",
     description:
       "LoreWeaver is a Novel/Stories Generation Multimodal LLM harnessing a fine-tuned Mistral 7B LLM. The model provides the ability for the impaired individuals to hear the generated stories via text-to-speech and supports the dyslexic individuals by transforming the text story into an image represented story via text-to-image.",
     tags: ["Torch", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: port2,
   },
   {
     title: "Oculus: A Travel Agent RAG System",
     description:
       "A travel agent RAG System that utilizes Langchain and the Amadeus API within a Streamlit interface.",
     tags: ["Torch", "LangChain", "Streamlit", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: port1,
   },
 ] as const;
 
