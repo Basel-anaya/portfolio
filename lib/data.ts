@@ -59,49 +59,50 @@ export const experiencesData = [
     date: "Oct 2020 - July 2024",
   },
   {
-    title: "Generative AI Engineer",
+    title: "Machine Learning Engineer intern",
     location: "Amman, Jordan",
     description:
-      "I'm now a GenAI engineer working at Digital Future.",
+      "As an ML Engineer, l have played a crucial role in designing, developing, and deploying AI-powered systems that deliver customized and efficient technology solutions to our clients.",
     icon: React.createElement(CgWorkAlt),
     date: "March 2024 - present",
   }, 
 ] as const;
+
 
 export const projectsData = [
   {
     title: "MedFormer: A Biomedical Vision-Language Model with RAG System",
     description:
       "MedFormer is an advanced Biomedical Vision-Language Model integrated with a RAG System, designed to address complex diagnostic challenges in healthcare. Utilizing cutting-edge technologies such as Idefics2, LLAMA-3, and Citrinet-512, MedFormer seamlessly integrates textual, visual, and auditory data.",
-    tags: ["Python", "Torch", "VLM", "Azure", "Gradio", "RAG System", "TTS", "STT"],
+    tags: ["Pytorch", "VLM", "AzureML", "Gradio", "RAG System"],
     imageUrl: port3,
   },
   {
     title: "LoreWeaver: A Novels Generation Multimodal LLM",
     description:
       "LoreWeaver is a Novel/Stories Generation Multimodal LLM harnessing a fine-tuned Mistral 7B LLM. The model provides the ability for the impaired individuals to hear the generated stories via text-to-speech and supports the dyslexic individuals by transforming the text story into an image represented story via text-to-image.",
-    tags: ["Python", "Torch", "VLM", "Gradio", "TTS", "STT"],
+    tags: ["Pytorch", "LangChain", "LLM", "Jax"],
     imageUrl: port2,
   },
   {
     title: "Oculus: A Travel Agent RAG System",
     description:
       "A travel agent RAG System that utilizes Langchain and the Amadeus API within a Streamlit interface.",
-    tags: ["Python", "Torch", "LangChain", "Streamlit", "LLM"],
+    tags: ["Pytorch", "LangChain", "Streamlit", "LLM"],
     imageUrl: port1,
   },
 ] as const;
 
 export const skillsData = [
-  "Python",
   "Pytorch",
+  "LangChain",
   "Apache Sparks",
-  "Gradio",
+  "Julia",
   "LLMs",
+  "MLOps",
   "MongoDB",
   "Jax",
   "Tensorflow",
   "Git",
-  "LangChain",
-  "Julia",
+  "Python",
 ] as const;
