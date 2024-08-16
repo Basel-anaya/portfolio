@@ -64,7 +64,7 @@ export const experiencesData = [
     description:
       "As an ML Engineer, l have played a crucial role in designing, developing, and deploying AI-powered systems that deliver customized and efficient technology solutions to our clients.",
     icon: React.createElement(CgWorkAlt),
-    date: "March 2024 - present",
+    date: "March 2024 - July 2024",
   }, 
 ] as const;
 
