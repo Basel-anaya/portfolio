@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://media.licdn.com/dms/image/D4E03AQG8mD5-DWHz3w/profile-displayphoto-shrink_800_800/0/1719433475383?e=1726099200&v=beta&t=mvuyUYSJ1zmAX6zAQ8rqwBMKgi1inMVYfDFnNF6GF3A"
+              src="https://drive.google.com/file/d/1BqWkO_TrV11zdhtAg7FCPkBZmZSOXu79/view?usp=drivesdk"
               alt="Ricardo portrait"
               width="400"
               height="400"
